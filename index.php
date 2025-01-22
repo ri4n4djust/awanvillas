@@ -105,10 +105,13 @@
                                 <a href="#banner">Home</a>
                             </li>
                             <li>
+                                <a id="villas" href="#">VILLAS</a>
+                            </li>
+                            <li>
                                 <a href="#about">About</a>
                             </li>
                             <li>
-                                <a href="#gallery">Gallery</a>
+                                <a href="gallery.html">Gallery</a>
                             </li>
                             <li>
                                 <a href="#services">Services</a>
@@ -116,9 +119,7 @@
                             <li>
                                 <a href="#testimonials">Testimonials</a>
                             </li>
-                            <li>
-                                <a href="#clients">Clients</a>
-                            </li>
+                            
                             
                         </ul>
                     </nav>
@@ -179,7 +180,7 @@
                         </div>
                         <!--Icon Block Description-->
                         <div class="icon-block-description">
-                            <h4>HTML5 &amp; CSS3</h4>
+                            <h4>HTML5 &amp; CSS3 <a href="villas.php">VILLAS</a></h4>
                             <p>Has ne tritani atomorum conclusionemque, in dolorum volumus cotidieque eum. At vis choro
                                 neglegentur iudico</p>
                         </div>
@@ -551,18 +552,20 @@
 
 </div>
 <script>
-    const popupContainer =
-        document.getElementById('popupContainer');
+    const popupContainer = document.getElementById('popupContainer');
     const popupContent =
         document.getElementById('popupContent');
-    popupContainer.addEventListener
-        ('mouseover', function () {
-            popupContent.style.display = 'block';
+        popupContainer.addEventListener
+            ('mouseover', function () {
+                popupContent.style.display = 'block';
+            });
+        popupContainer.addEventListener
+            ('mouseout', function () {
+                popupContent.style.display = 'none';
         });
-    popupContainer.addEventListener
-        ('mouseout', function () {
-            popupContent.style.display = 'none';
-        });
+    document.getElementById("villas").onclick = function () {
+    location.href = "villas.php";
+};
 </script>
 <!-- Include JavaScript resources -->
 <script src="js/jquery.1.8.3.min.js"></script>
