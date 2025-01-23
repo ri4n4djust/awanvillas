@@ -101,26 +101,14 @@
                     <!--Main Navigation-->
                     <nav id="nav-main">
                         <ul>
-                            <li>
-                                <a href="#banner">Home</a>
+                            <li id="home"><a  href="index.php">Home</a></li>
+                            <li id="villas"><a  href="villas.php">VILLAS</a></li>
+                            <li id="dining">
+                                <a href="dining.php">DINING</a>
                             </li>
-                            <li>
-                                <a href="villas.html">VILLAS</a>
-                            </li>
-                            <li>
-                                <a href="#about">About</a>
-                            </li>
-                            <li>
-                                <a href="gallery.html">Gallery</a>
-                            </li>
-                            <li>
-                                <a href="#services">Services</a>
-                            </li>
-                            <li>
-                                <a href="#testimonials">Testimonials</a>
-                            </li>
-                            
-                            
+                            <li id="galeri"><a  href="gallery.php">GALLERY</a></li>
+                            <li id="spesial"><a href="special.php">SPECIAL OFFERS</a></li>
+                            <li id="kontak"><a href="contact.php">CONTACT</a></li>
                         </ul>
                     </nav>
                     <!--End of Main Navigation-->
@@ -554,18 +542,35 @@
 
 </div>
 <script>
-    const popupContainer =
-        document.getElementById('popupContainer');
+    const popupContainer = document.getElementById('popupContainer');
     const popupContent =
         document.getElementById('popupContent');
-    popupContainer.addEventListener
-        ('mouseover', function () {
-            popupContent.style.display = 'block';
-        });
-    popupContainer.addEventListener
-        ('mouseout', function () {
-            popupContent.style.display = 'none';
-        });
+        popupContainer.addEventListener
+            ('mouseover', function () {
+                popupContent.style.display = 'block';
+            });
+        popupContainer.addEventListener
+            ('mouseout', function () {
+                popupContent.style.display = 'none';
+            });
+            document.getElementById("home").onclick = function () {
+        location.href = "index.php";
+    };
+    document.getElementById("villas").onclick = function () {
+        location.href = "villas.php";
+    };
+    document.getElementById("dining").onclick = function () {
+        location.href = "dining.php";
+    };
+    document.getElementById("galeri").onclick = function () {
+        location.href = "gallery.php";
+    };
+    document.getElementById("spesial").onclick = function () {
+        location.href = "special.php";
+    };
+    document.getElementById("kontak").onclick = function () {
+        location.href = "contact.php";
+    };
 </script>
 <!-- Include JavaScript resources -->
 <script src="js/jquery.1.8.3.min.js"></script>
@@ -576,7 +581,7 @@
 <script src="js/jquery.enllax.min.js"></script>
 <script src="js/jquery.scrollUp.min.js"></script>
 <script src="js/jquery.easing.min.js"></script>
-<script src="js/jquery.stickyNavbar.min.js"></script>
+<!-- <script src="js/jquery.stickyNavbar.min.js"></script> -->
 <script src="js/jquery.waypoints.min.js"></script>
 <script src="js/images-loaded.min.js"></script>
 <!-- <script src="js/lightbox.min.js"></script> -->

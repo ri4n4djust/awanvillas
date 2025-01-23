@@ -13,16 +13,22 @@
 
     <!--Favicon-->
     <link rel="shortcut icon" href="images/favicon.ico" title="Favicon"/>
+
     <!-- Main CSS Files -->
     <link rel="stylesheet" href="css/style.css">
+
     <!-- Namari Color CSS -->
     <link rel="stylesheet" href="css/namari-color.css">
+
     <!--Icon Fonts - Font Awesome Icons-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
+
     <!-- Animate CSS-->
     <link href="css/animate.css" rel="stylesheet" type="text/css">
+
     <link rel="stylesheet" type="text/css" href="css/zoomslider.css" />
 	<script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+
     <!--Google Webfonts-->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 </head>
@@ -98,11 +104,7 @@
                             <li id="home"><a  href="index.php">Home</a></li>
                             <li id="villas"><a  href="villas.php">VILLAS</a></li>
                             <li id="dining">
-                                <a href="#">DINING</a>
-                                <ul>
-                                    <li><a href="dining.php">Restaurant</a></li>
-                                    <li><a href="dining.php">Bar</a></li>
-                            </ul>
+                                <a href="dining.php">DINING</a>
                             </li>
                             <li id="galeri"><a  href="gallery.php">GALLERY</a></li>
                             <li id="spesial"><a href="special.php">SPECIAL OFFERS</a></li>
@@ -140,91 +142,13 @@
 
     <!--Main Content Area-->
     <main id="content">
-
-        <!--Introduction-->
-        <section id="about" class="introduction scrollto">
-
-            <div class="row clearfix">
-
-                <div class="col-3">
-                    <div class="section-heading">
-                        <h3>SUCCESS</h3>
-                        <h2 class="section-title">How We Help You To Sell Your Product</h2>
-                        <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!</p>
-                    </div>
-
-                </div>
-
-                <div class="col-2-3">
-
-                    <!--Icon Block-->
-                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
-                        <!--Icon-->
-                        <div class="icon">
-                            <i class="fa fa-html5 fa-2x"></i>
-                        </div>
-                        <!--Icon Block Description-->
-                        <div class="icon-block-description">
-                            <h4>HTML5 &amp; CSS3 </h4>
-                            <p>Has ne tritani atomorum conclusionemque, in dolorum volumus cotidieque eum. At vis choro
-                                neglegentur iudico</p>
-                        </div>
-                    </div>
-                    <!--End of Icon Block-->
-
-                    <!--Icon Block-->
-                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.3s">
-                        <!--Icon-->
-                        <div class="icon">
-                            <i class="fa fa-bolt fa-2x"></i>
-                        </div>
-                        <!--Icon Block Description-->
-                        <div class="icon-block-description">
-                            <h4>Easy to Use</h4>
-                            <p>Cu vero ipsum vim, doctus facilisi sea in. Eam ex falli honestatis repudiandae, sit
-                                detracto mediocrem disputationi</p>
-                        </div>
-                    </div>
-                    <!--End of Icon Block-->
-
-                    <!--Icon Block-->
-                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
-                        <!--Icon-->
-                        <div class="icon">
-                            <i class="fa fa-tablet fa-2x"></i>
-                        </div>
-                        <!--Icon Block Description-->
-                        <div class="icon-block-description">
-                            <h4>Fully Responsive</h4>
-                            <p>Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro
-                                nemore vivendum</p>
-                        </div>
-                    </div>
-                    <!--End of Icon Block-->
-
-                    <!--Icon Block-->
-                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
-                        <!--Icon-->
-                        <div class="icon">
-                            <i class="fa fa-rocket fa-2x"></i>
-                        </div>
-                        <!--Icon Block Description-->
-                        <div class="icon-block-description">
-                            <h4>Parallax Effect</h4>
-                            <p>Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro
-                                nemore vivendum</p>
-                        </div>
-                    </div>
-                    <!--End of Icon Block-->
-
-                </div>
-
+        
+        <div class="row clearfix">
+            <div class="section-heading">
+                <h3>FEEDBACK</h3>
+                <h2 class="section-title">What our customers are saying</h2>
             </div>
-
-
-        </section>
-        <!--End of Introduction-->
+        </div>
 
 
         <!--Gallery-->
@@ -537,7 +461,6 @@
     <!--End of Footer-->
 
 </div>
-
 <script>
     const popupContainer = document.getElementById('popupContainer');
     const popupContent =

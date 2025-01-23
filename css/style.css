@@ -9,6 +9,7 @@
 - 2.4 Navigation
 - 2.5 Social Elements
 - 2.6 Images
+- 2.7 Menu
 3. Fonts and Headings
 4. Banner
 - 4.1 SignUp Form
@@ -392,7 +393,7 @@ section {
 }
 
 #logo img {
-    /* max-height: 22px; */
+    max-height: 51px;
     vertical-align: middle;
     /* margin-right: 15px; */
 }
@@ -751,6 +752,9 @@ a img {
 a img:hover {
     opacity: 0.7;
 }
+
+/* --------- 2.7 Menu ---------- */
+
 
 /*------------------------------------------------------------------------------------------*/
 /* 3. Fonts */
@@ -2115,6 +2119,115 @@ blockquote {
 /* Responsive Elements */
 /*------------------------------------------------------------------------------------------*/
 
+#nav-main ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav-main ul li {
+    position: relative;
+    display: inline-block;
+}
+
+#nav-main ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    /* color: #333; */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect for main menu items */
+#nav-main ul li a:hover {
+    /* background-color: #f0f0f0; */
+    /* color: #000; */
+    
+}
+
+/* Sub-menu Styles */
+#nav-main ul li ul {
+    display: none;
+    position: absolute;
+    /* top: 100%; */
+    left: 0;
+    background-color:#009bf8;
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
+    z-index: 1;
+    
+}
+
+#nav-main ul li ul li {
+    display: block;
+}
+
+#nav-main ul li ul li a {
+    text-align: left;
+    border: 1px solid #f0f0f0;
+    padding: 10px 20px;
+    /* color: #333; */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect for sub-menu items */
+#nav-main ul li ul li a:hover {
+    /* background-color: #f0f0f0; */
+    /* color: #000; */
+}
+
+/* Show sub-menu on hover */
+#nav-main ul li:hover ul {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    #nav-main {
+        display: none;
+    }
+
+    #nav-trigger {
+        display: block;
+        cursor: pointer;
+    }
+
+    #nav-mobile {
+        display: none;
+        background-color: #333;
+        position: absolute;
+        top: 50px;
+        width: 100%;
+    }
+
+    #nav-mobile ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    #nav-mobile ul li {
+        padding: 10px;
+        text-align: left;
+    }
+
+    #nav-mobile ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    #nav-mobile ul li ul {
+        display: none;
+        position: static;
+        background-color: #444;
+    }
+
+    #nav-mobile ul li ul li a {
+        color: #fff;
+    }
+
+    #nav-mobile ul li:hover ul {
+        display: block;
+    }
+}
+
 /* =Media Queries for Nav
 ===============================*/
 @media all and (max-width: 1024px) {
@@ -2136,6 +2249,16 @@ blockquote {
 
     #header aside {
         display: none;
+    }
+}
+
+@media all and (min-width: 1025px) {
+    #nav-trigger {
+        display: none;
+    }
+
+    #nav-main {
+        display: block;
     }
 }
 

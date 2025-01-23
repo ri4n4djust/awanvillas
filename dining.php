@@ -98,11 +98,7 @@
                             <li id="home"><a  href="index.php">Home</a></li>
                             <li id="villas"><a  href="villas.php">VILLAS</a></li>
                             <li id="dining">
-                                <a href="#">DINING</a>
-                                <ul>
-                                    <li><a href="dining.php">Restaurant</a></li>
-                                    <li><a href="dining.php">Bar</a></li>
-                            </ul>
+                                <a href="dining.php">DINING</a>
                             </li>
                             <li id="galeri"><a  href="gallery.php">GALLERY</a></li>
                             <li id="spesial"><a href="special.php">SPECIAL OFFERS</a></li>
@@ -537,7 +533,6 @@
     <!--End of Footer-->
 
 </div>
-
 <script>
     const popupContainer = document.getElementById('popupContainer');
     const popupContent =
