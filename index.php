@@ -47,7 +47,7 @@
 
 <div id="wrapper">
 
-    <header id="banner" class="scrollto clearfix" data-zs-src='["images/banner-images/banner-image-1.jpg", "images/banner-images/banner-image-2.jpg", "images/banner-images/banner-image-1.jpg"]' >
+    <header id="banner" class="scrollto clearfix" data-zs-src='["images/banner-images/banner-image-1.jpg", "images/banner-images/banner-image-2.jpg", "images/banner-images/banner-image-3.jpg", "images/banner-images/banner-image-4.jpg"]' >
 
         <div id="header" class="nav-collapse">
             <div class="row clearfix">
@@ -251,6 +251,12 @@
                    data-wow-delay="0.9s"><img src="images/gallery-images/gallery-image-5.jpg" alt="Landing Page"/></a>
                 <a href="images/gallery-images/gallery-image-6.jpg" data-featherlight="image" class="col-3 wow fadeIn"
                    data-wow-delay="0.7s"><img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/></a>
+                <a href="images/gallery-images/gallery-image-7.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+                   data-wow-delay="0.7s"><img src="images/gallery-images/gallery-image-7.jpg" alt="Landing Page"/></a>
+                <a href="images/gallery-images/gallery-image-8.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+                   data-wow-delay="0.7s"><img src="images/gallery-images/gallery-image-8.jpg" alt="Landing Page"/></a>
+                <a href="images/gallery-images/gallery-image-9.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+                   data-wow-delay="0.7s"><img src="images/gallery-images/gallery-image-9.jpg" alt="Landing Page"/></a>
 
         </aside>
         <!--End of Gallery-->
@@ -310,50 +316,6 @@
         </div>
         <!--End of Content Section-->
 
-        <!--Testimonials-->
-        <aside id="testimonials" class="scrollto text-center" data-enllax-ratio=".2">
-
-            <div class="row clearfix">
-
-                <div class="section-heading">
-                    <h3>FEEDBACK</h3>
-                    <h2 class="section-title">What our customers are saying</h2>
-                </div>
-
-                <!--User Testimonial-->
-                <blockquote class="col-3 testimonial classic">
-                    <img src="images/user-images/user-1.jpg" alt="User"/>
-                    <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua</q>
-                    <footer>John Doe - Happy Customer</footer>
-                </blockquote>
-                <!-- End of Testimonial-->
-
-                <!--User Testimonial-->
-                <blockquote class="col-3 testimonial classic">
-                    <img src="images/user-images/user-2.jpg" alt="User"/>
-                    <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua</q>
-                    <footer>Roslyn Doe - Happy Customer</footer>
-                </blockquote>
-                <!-- End of Testimonial-->
-
-                <!--User Testimonial-->
-                <blockquote class="col-3 testimonial classic">
-                    <img src="images/user-images/user-3.jpg" alt="User"/>
-                    <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua</q>
-                    <footer>Thomas Doe - Happy Customer</footer>
-                </blockquote>
-                <!-- End of Testimonial-->
-
-            </div>
-
-        </aside>
-        <!--End of Testimonials-->
 
         <!--Clients-->
         <section id="clients" class="scrollto clearfix">
@@ -373,42 +335,33 @@
 
                 <div class="col-2-3">
 
-                    <a href="#" class="col-3">
-                        <img src="images/company-images/company-logo1.png" alt="Company"/>
-                        <div class="client-overlay"><span>Tree</span></div>
+                    <a href="#" class="col-5">
+                        <img src="images/icon/pool.png" wi alt="Company"/>
+                        <div class="client-overlay"><span>Private Pool Size: 7m x 3m x 1,5m</span></div>
                     </a>
-                    <a href="#" class="col-3">
-                        <img src="images/company-images/company-logo2.png" alt="Company"/>
-                        <div class="client-overlay"><span>Fingerprint</span></div>
+                    <a href="#" class="col-5">
+                    <img src="images/icon/desk.png" alt="Company"/>
+                        <div class="client-overlay"><span>24Hour Front Office</span></div>
                     </a>
-                    <a href="#" class="col-3">
-                        <img src="images/company-images/company-logo3.png" alt="Company"/>
-                        <div class="client-overlay"><span>The Man</span></div>
+                    <a href="#" class="col-5">
+                    <img src="images/icon/wifi.png" alt="Pool"/>
+                        <div class="client-overlay"><span>High Spped Wifi</span></div>
                     </a>
-                    <a href="#" class="col-3">
-                        <img src="images/company-images/company-logo4.png" alt="Company"/>
-                        <div class="client-overlay"><span>Mustache</span></div>
+                    <a href="#" class="col-5">
+                    <img src="images/icon/villa.png" alt="Pool"/>
+                        <div class="client-overlay"><span>High Spped Wifi</span></div>
                     </a>
-                    <a href="#" class="col-3">
-                        <img src="images/company-images/company-logo5.png" alt="Company"/>
-                        <div class="client-overlay"><span>Goat</span></div>
+                    <a href="#" class="col-5">
+                    <img src="images/icon/plug.png" alt="Pool"/>
+                        <div class="client-overlay"><span>High Spped Wifi</span></div>
                     </a>
-                    <a href="#" class="col-3">
-                        <img src="images/company-images/company-logo6.png" alt="Company"/>
-                        <div class="client-overlay"><span>Justice</span></div>
+                    <a href="#" class="col-5">
+                    <img src="images/icon/bed.png" alt="Pool"/>
+                        <div class="client-overlay"><span>High Spped Wifi</span></div>
                     </a>
-                    <a href="#" class="col-3">
-                        <img src="images/company-images/company-logo7.png" alt="Company"/>
-                        <div class="client-overlay"><span>Ball</span></div>
-                    </a>
-                    <a href="#" class="col-3">
-                        <img src="images/company-images/company-logo8.png" alt="Company"/>
-                        <div class="client-overlay"><span>Cold</span></div>
-                    </a>
-
-                    <a href="#" class="col-3">
-                        <img src="images/company-images/company-logo9.png" alt="Company"/>
-                        <div class="client-overlay"><span>Cold</span></div>
+                    <a href="#" class="col-5">
+                    <img src="images/icon/door.png" alt="Pool"/>
+                        <div class="client-overlay"><span>High Spped Wifi</span></div>
                     </a>
 
                 </div>

@@ -1019,6 +1019,7 @@ blockquote {
 
 #gallery img {
     max-height: 300px;
+    border: 1px solid #f3f3ef;
 }
 
 #gallery [class*='col-'] {
@@ -1434,6 +1435,7 @@ blockquote {
 #clients img {
     display: inline-block;
     padding: 15px 25px;
+    
 }
 
 .client-overlay {
