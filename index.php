@@ -97,15 +97,23 @@
                         <ul>
                             <li id="home"><a  href="index.php">Home</a></li>
                             <li id="villas"><a  href="villas.php">VILLAS</a></li>
-                            <li id="dining">
+                            <li >
                                 <a href="#">DINING</a>
                                 <ul>
                                     <li><a href="dining.php">Restaurant</a></li>
                                     <li><a href="dining.php">Bar</a></li>
-                            </ul>
+                                </ul>
                             </li>
                             <li id="galeri"><a  href="gallery.php">GALLERY</a></li>
-                            <li id="spesial"><a href="special.php">SPECIAL OFFERS</a></li>
+                            <li >
+                                <a href="#">SPECIAL OFFERS</a>
+                                <ul>
+                                    <li><a id="spesial" href="honemoon.php">Honeymoon Package</a></li>
+                                    <li><a href="dining.php">Family Package</a></li>
+                                    <li><a id="spesial" href="honemoon.php">Honeymoon Package</a></li>
+                                    <li><a href="dining.php">Family Package</a></li>
+                                </ul>
+                            </li>
                             <li id="kontak"><a href="contact.php">CONTACT</a></li>
                         </ul>
                     </nav>

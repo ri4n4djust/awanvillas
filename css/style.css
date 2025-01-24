@@ -2153,12 +2153,14 @@ blockquote {
     left: 0;
     background-color:#009bf8;
     /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
-    z-index: 1;
+    /* z-index: 1; */
+    
     
 }
 
 #nav-main ul li ul li {
     display: block;
+    width: 250px;
 }
 
 #nav-main ul li ul li a {
@@ -2180,7 +2182,7 @@ blockquote {
     display: block;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     #nav-main {
         display: none;
     }
@@ -2216,7 +2218,7 @@ blockquote {
     #nav-mobile ul li ul {
         display: none;
         position: static;
-        background-color: #444;
+        background-color: #009bf8;
     }
 
     #nav-mobile ul li ul li a {
