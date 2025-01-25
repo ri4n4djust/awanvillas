@@ -229,8 +229,12 @@ section {
 .row {
     max-width: 1245px;
     margin: 0 auto;
-    padding: 75px 0;
+    padding: 20px 0;
     position: relative;
+}
+
+.tengah {
+    text-align: center;
 }
 
 .no-padding-bottom .row, .no-padding-bottom div, .no-padding-bottom.row {
@@ -1435,7 +1439,7 @@ blockquote {
 #clients img {
     display: inline-block;
     padding: 15px 25px;
-    
+    max-width: 40%;
 }
 
 .client-overlay {

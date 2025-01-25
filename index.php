@@ -133,8 +133,7 @@
 
                 <div class="section-heading">
                     <h1>Bali Awan Villas</h1>
-                    <h2>Namari is a free landing page template you can use for your projects. It is free to use for your
-                        personal and commercial projects, enjoy!</h2>
+                    <h2>- Best Place To Stay In bali -</h2>
                 </div>
 
                 <!--Call to Action-->
@@ -149,6 +148,21 @@
     <!--Main Content Area-->
     <main id="content">
 
+        <section id="about" class="introduction scrollto">
+
+            <div class="row clearfix">
+
+                <div class="tengah">
+                    <div class="section-heading">
+                        <h2 class="section-title">- Welcome to The Awan Villa -</h2>
+                        <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
         <!--Introduction-->
         <section id="about" class="introduction scrollto">
 
@@ -156,10 +170,8 @@
 
                 <div class="col-3">
                     <div class="section-heading">
-                        <h3>SUCCESS</h3>
-                        <h2 class="section-title">How We Help You To Sell Your Product</h2>
-                        <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!</p>
+                        <h2 class="section-title">Some Activity In And Outside Our Villa</h2>
+                        <p class="section-subtitle">some of activity can be do in villa or visit some near place</p>
                     </div>
 
                 </div>
@@ -169,12 +181,13 @@
                     <!--Icon Block-->
                     <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
                         <!--Icon-->
-                        <div class="icon">
-                            <i class="fa fa-html5 fa-2x"></i>
+                        <div class="col-3">
+                            <!-- <i class="fa fa-html5 fa-2x"></i> -->
+                            <img src="images/icon/spa.png" alt="spa"/>
                         </div>
                         <!--Icon Block Description-->
                         <div class="icon-block-description">
-                            <h4>HTML5 &amp; CSS3 </h4>
+                            <h4>In Villa SPA massagge </h4>
                             <p>Has ne tritani atomorum conclusionemque, in dolorum volumus cotidieque eum. At vis choro
                                 neglegentur iudico</p>
                         </div>
@@ -184,12 +197,13 @@
                     <!--Icon Block-->
                     <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.3s">
                         <!--Icon-->
-                        <div class="icon">
-                            <i class="fa fa-bolt fa-2x"></i>
+                        <div class="col-3">
+                            <!-- <i class="fa fa-html5 fa-2x"></i> -->
+                            <img src="images/icon/breakfast.png" alt="spa"/>
                         </div>
                         <!--Icon Block Description-->
                         <div class="icon-block-description">
-                            <h4>Easy to Use</h4>
+                            <h4>Breakfast</h4>
                             <p>Cu vero ipsum vim, doctus facilisi sea in. Eam ex falli honestatis repudiandae, sit
                                 detracto mediocrem disputationi</p>
                         </div>
@@ -199,12 +213,13 @@
                     <!--Icon Block-->
                     <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
                         <!--Icon-->
-                        <div class="icon">
-                            <i class="fa fa-tablet fa-2x"></i>
+                        <div class="col-3">
+                            <!-- <i class="fa fa-html5 fa-2x"></i> -->
+                            <img src="images/icon/tour.png" alt="spa"/>
                         </div>
                         <!--Icon Block Description-->
                         <div class="icon-block-description">
-                            <h4>Fully Responsive</h4>
+                            <h4>Tour</h4>
                             <p>Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro
                                 nemore vivendum</p>
                         </div>
@@ -214,12 +229,13 @@
                     <!--Icon Block-->
                     <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
                         <!--Icon-->
-                        <div class="icon">
-                            <i class="fa fa-rocket fa-2x"></i>
+                        <div class="col-3">
+                            <!-- <i class="fa fa-html5 fa-2x"></i> -->
+                            <img src="images/icon/place.png" alt="spa"/>
                         </div>
                         <!--Icon Block Description-->
                         <div class="icon-block-description">
-                            <h4>Parallax Effect</h4>
+                            <h4>Near Interested Place</h4>
                             <p>Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro
                                 nemore vivendum</p>
                         </div>
@@ -238,6 +254,12 @@
         <!--Gallery-->
         <aside id="gallery" class="row text-center scrollto clearfix" data-featherlight-gallery
                  data-featherlight-filter="a">
+                 <div class="tengah">
+                    <div class="section-heading">
+                        <h2 class="section-title">- Foto Gallery -</h2>
+                    </div>
+
+                </div>
 
                 <a href="images/gallery-images/gallery-image-1.jpg" data-featherlight="image" class="col-3 wow fadeIn"
                    data-wow-delay="0.1s"><img src="images/gallery-images/gallery-image-1.jpg" alt="Landing Page"/></a>
@@ -263,57 +285,57 @@
 
 
         <!--Content Section-->
-        <div id="services" class="scrollto clearfix">
+        <!-- <div id="services" class="scrollto clearfix"> -->
 
-            <div class="row no-padding-bottom clearfix">
+            <!-- <div class="row no-padding-bottom clearfix"> -->
 
 
                 <!--Content Left Side-->
-                <div class="col-3">
+                <!-- <div class="col-3"> -->
                     <!--User Testimonial-->
-                    <blockquote class="testimonial text-right bigtest">
+                    <!-- <blockquote class="testimonial text-right bigtest">
                         <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore
                             et dolore magna aliqua</q>
                         <footer>— John Doe, Happy Customer</footer>
-                    </blockquote>
+                    </blockquote> -->
                     <!-- End of Testimonial-->
 
-                </div>
+                <!-- </div> -->
                 <!--End Content Left Side-->
 
                 <!--Content of the Right Side-->
-                <div class="col-3">
-                    <div class="section-heading">
+                <!-- <div class="col-3"> -->
+                    <!-- <div class="section-heading">
                         <h3>BELIEVING</h3>
                         <h2 class="section-title">Focusing On What Matters Most</h2>
                         <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!</p>
-                    </div>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    </div> -->
+                    <!-- <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
                         totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
                         dicta sunt explicabo.
-                    </p>
-                    <p>
+                    </p> -->
+                    <!-- <p>
                         Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
                         consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
                         Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet!
-                    </p>
+                    </p> -->
                     <!-- Just replace the Video ID "UYJ5IjBRlW8" with the ID of your video on YouTube (Found within the URL) -->
-                    <a href="#" data-videoid="UYJ5IjBRlW8" data-videosite="youtube" class="button video link-lightbox">
+                    <!-- <a href="#" data-videoid="UYJ5IjBRlW8" data-videosite="youtube" class="button video link-lightbox">
                         WATCH VIDEO <i class="fa fa-play" aria-hidden="true"></i>
-                    </a>
-                </div>
+                    </a> -->
+                <!-- </div> -->
                 <!--End Content Right Side-->
 
-                <div class="col-3">
+                <!-- <div class="col-3">
                     <img src="images/dancer.jpg" alt="Dancer"/>
-                </div>
+                </div> -->
 
-            </div>
+            <!-- </div> -->
 
 
-        </div>
+        <!-- </div> -->
         <!--End of Content Section-->
 
 
@@ -324,42 +346,39 @@
                 <div class="col-3">
 
                     <div class="section-heading">
-                        <h3>TRUST</h3>
-                        <h2 class="section-title">Companies who use our services</h2>
-                        <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!</p>
+                        <h2 class="section-title">Best Villa Facilities</h2>
+                        <p class="section-subtitle">Some of ouf villa Facilities</p>
                     </div>
 
                 </div>
 
                 <div class="col-2-3">
 
-                    <a href="#" class="col-5">
+                    <a href="#" class="col-3">
                         <img src="images/icon/pool.png" wi alt="Company"/>
                         <div class="client-overlay"><span>Private Pool Size: 7m x 3m x 1,5m</span></div>
                     </a>
-                    <a href="#" class="col-5">
+                    <a href="#" class="col-3">
                     <img src="images/icon/desk.png" alt="Company"/>
                         <div class="client-overlay"><span>24Hour Front Office</span></div>
                     </a>
-                    <a href="#" class="col-5">
+                    <a href="#" class="col-3">
                     <img src="images/icon/wifi.png" alt="Pool"/>
                         <div class="client-overlay"><span>High Spped Wifi</span></div>
                     </a>
-                    <a href="#" class="col-5">
+                    <a href="#" class="col-3">
                     <img src="images/icon/villa.png" alt="Pool"/>
                         <div class="client-overlay"><span>High Spped Wifi</span></div>
                     </a>
-                    <a href="#" class="col-5">
+                    <a href="#" class="col-3">
                     <img src="images/icon/plug.png" alt="Pool"/>
                         <div class="client-overlay"><span>High Spped Wifi</span></div>
                     </a>
-                    <a href="#" class="col-5">
+                    <a href="#" class="col-3">
                     <img src="images/icon/bed.png" alt="Pool"/>
                         <div class="client-overlay"><span>High Spped Wifi</span></div>
                     </a>
-                    <a href="#" class="col-5">
+                    <a href="#" class="col-3">
                     <img src="images/icon/door.png" alt="Pool"/>
                         <div class="client-overlay"><span>High Spped Wifi</span></div>
                     </a>
@@ -382,62 +401,65 @@
                 <!--Pricing Block-->
                 <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="pricing-block-content">
-                        <h3>Personal</h3>
-                        <p class="pricing-sub">The standard version</p>
+                        <h3>Honeymoon Package</h3>
+                        <p class="pricing-sub">Romantic honeymoon</p>
                         <div class="pricing">
-                            <div class="price"><span>$</span>19</div>
+                            <!-- <div class="price"><span>$</span>19</div> -->
+                            <img src="images/gallery-images/gallery-image-9.jpg" alt="Landing Page"/>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                         </div>
                         <ul>
-                            <li>5 Downloads</li>
-                            <li>2 Extensions</li>
-                            <li>Tutorials</li>
-                            <li>Forum Support</li>
+                            <li>2 Night with one time setup bed</li>
+                            <li>2 with breakfast</li>
+                            <li>one time romantic candilac diner</li>
+                            <li>one time lunch pool</li>
                             <li>1 year free updates</li>
                         </ul>
-                        <a href="#" class="button">BUY TODAY</a>
+                        <a href="#" class="button">BOOK TODAY</a>
                     </div>
                 </div>
                 <!--End Pricing Block-->
 
                 <!--Pricing Block-->
-                <div class="pricing-block featured col-3 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="pricing-block-content">
-                        <h3>Student</h3>
-                        <p class="pricing-sub">Most popular choice</p>
+                        <h3>Family Package</h3>
+                        <p class="pricing-sub">Romantic honeymoon</p>
                         <div class="pricing">
-                            <div class="price"><span>$</span>29</div>
+                            <!-- <div class="price"><span>$</span>19</div> -->
+                            <img src="images/gallery-images/gallery-image-4.jpg" alt="Landing Page"/>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                         </div>
                         <ul>
-                            <li>15 Downloads</li>
-                            <li>5 Extensions</li>
-                            <li>Tutorials with Files</li>
-                            <li>Forum Support</li>
-                            <li>2 years free updates</li>
+                            <li>2 Night with one time setup bed</li>
+                            <li>2 with breakfast</li>
+                            <li>one time romantic candilac diner</li>
+                            <li>one time lunch pool</li>
+                            <li>1 year free updates</li>
                         </ul>
-                        <a href="#" class="button">BUY TODAY</a>
+                        <a href="#" class="button">BOOK TODAY</a>
                     </div>
                 </div>
                 <!--End Pricing Block-->
 
                 <!--Pricing Block-->
-                <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="pricing-block-content">
-                        <h3>Business</h3>
-                        <p class="pricing-sub">For the whole team</p>
+                        <h3>Couple Package</h3>
+                        <p class="pricing-sub">Romantic honeymoon</p>
                         <div class="pricing">
-                            <div class="price"><span>$</span>49</div>
+                            <!-- <div class="price"><span>$</span>19</div> -->
+                            <img src="images/gallery-images/gallery-image-8.jpg" alt="Landing Page"/>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                         </div>
                         <ul>
-                            <li>Unlimited Downloads</li>
-                            <li>Unlimited Extensions</li>
-                            <li>HD Video Tutorials</li>
-                            <li>Chat Support</li>
-                            <li>Lifetime free updates</li>
+                            <li>2 Night with one time setup bed</li>
+                            <li>2 with breakfast</li>
+                            <li>one time romantic candilac diner</li>
+                            <li>one time lunch pool</li>
+                            <li>1 year free updates</li>
                         </ul>
-                        <a href="#" class="button">BUY TODAY</a>
+                        <a href="#" class="button">BOOK TODAY</a>
                     </div>
                 </div>
                 <!--End Pricing Block-->

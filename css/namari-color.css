@@ -91,14 +91,14 @@ a:hover, #header.nav-solid nav a:hover {
     color:#fff;    
 }
 
-.section-heading h2:after {
+/* .section-heading h2:after {
     background:#d2b356;
     content:"";
     display:block;
     width:30px;
     height:5px;
     margin-top:30px;
-}
+} */
 
 .text-center .section-heading h2:after {
     margin:30px auto 25px auto;
@@ -115,7 +115,7 @@ a:hover, #header.nav-solid nav a:hover {
 
 .secondary-color {
     /* background-color:#f5f5f5; */
-    background: url("../images/banner-images/banner-image-1.jpg") no-repeat top;
+    background: url("../images/banner-images/banner-image-2.jpg") no-repeat top;
 }
 
 
@@ -169,7 +169,7 @@ body {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size:62px;
     line-height:60px;
-    font-weight:800;
+    font-weight:200;
     color:#FFF;
 }
 
